@@ -1,0 +1,65 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.form-group label {
+  flex: 1;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.form-group textarea,
+.form-group input[type="text"] {
+  flex: 2;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.radio-group {
+  display: flex;
+  align-items: center; /* Center align the radio buttons vertically */
+  margin-top: 10px; /* Space between the legend and the radio buttons */
+}
+
+.radio-group legend {
+  font-weight: bold; /* Make the legend bold */
+  margin-right: 20px; /* Space between the legend and the radio buttons */
+}
+
+.radio-group label {
+  margin-right: 20px; /* Space between radio buttons */
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background-color: #4CAF50; /* Green */
+  transition: opacity 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px; /* Adds space below the button */
+}
+
+button:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,194 @@
+/* Background Video */
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  object-fit: cover; /* Ensure the video covers the container */
+  z-index: -1; /* Place video behind other content */
+  filter: blur(5px); /* Apply a slight blur effect */
+}
+
+/* Overlay for content readability */
+.content-overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for readability */
+}
+
+.userName {
+  color: #FFD700;
+}
+
+/* Center the container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensure it takes full viewport height */
+  padding: 20px; /* Padding to avoid content touching edges */
+  box-sizing: border-box; /* Include padding in element's total width and height */
+}
+
+/* Center align the heading */
+h1 {
+  color: #FFD700; /* Gold for headings */
+  font-size: 36px; /* Adjust font size as needed */
+  text-align: center;
+  margin-bottom: 20px; /* Space between heading and buttons */
+}
+
+/* Add space below the heading for additional text */
+.subtitle {
+  font-size: 20px;
+  color: rgb(181, 12, 12);
+  font-weight: bold; /* Make the subtitle bold */
+  margin-bottom: 20px; /* Space between text and buttons */
+  text-align: center; /* Center the subtitle text */
+}
+
+/* Button Container */
+.button-container {
+  display: flex; /* Align buttons horizontally */
+  gap: 10px; /* Space between buttons */
+  margin-bottom: 20px; /* Space below buttons */
+}
+
+/* Button Styling */
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  color: white;
+  background-color: #4CAF50; /* Default background color */
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Shadow effect */
+}
+
+.encryption-btn {
+  background-color: #4CAF50; /* Green */
+}
+
+.decryption-btn {
+  background-color: #2196F3; /* Blue */
+}
+
+button:hover {
+  background-color: #45a049; /* Slightly darker green */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Information Section for AES and Kyber */
+.info-section {
+  background-color: #333; /* Dark background for better contrast */
+  padding: 20px;
+  margin: 50px auto;
+  width: 80%;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+}
+
+/* New buttons for chat rooms */
+.info-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; /* Space above the buttons */
+  gap: 10px; /* Space between buttons and select */
+}
+
+/* Custom Select Container */
+.custom-select-container {
+  position: relative;
+  width: 200px; /* Adjust width as needed */
+}
+
+.custom-select {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #FF5722; /* Orange for select box */
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  text-align: left;
+  z-index: 1000; /* Ensure it appears above other content */
+  text-align: center; /* Center text in select */
+}
+
+.custom-select-container.open .custom-select {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.custom-select-options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+.custom-select-container.open .custom-select-options {
+  display: block;
+}
+
+.custom-select-option {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.custom-select-option:hover,
+.custom-select-option.selected {
+  background-color: #f0f0f0; /* Highlight background for hover and selected options */
+}
+
+/* Additional styles */
+.info-buttons button {
+  background-color: #FF5722; /* Button color */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.info-buttons button:hover {
+  background-color: #e64a19; /* Darker shade for hover */
+}
+
+.info-buttons p {
+  color: #333; /* Text color */
+  margin: 10px 0; /* Space above and below the text */
+}
+
+.color{
+  margin-bottom: 20px;
+  color: #ea9292;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+p {
+  color: whitesmoke;
+}
