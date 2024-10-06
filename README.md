@@ -1,16 +1,17 @@
 
-# Hamsters
+# Quantum-Encryption-tool
+
 
 ## Deployed Application
 
-🚀 **Check out the live version of Traffic Managment Dashboard!** 🚀
+🚀 **Check out the live version of Quantum-Encryption-tool!** 🚀
 
 [![Live Application](https://img.shields.io/badge/Live%20Application-Click%20Here-brightgreen)](https://hamsters-e44048193-srihariramesh2004s-projects.vercel.app/)
 
 
 ## Overview
 
-Hamsters is a project aimed at [Insert project purpose or description]. This repository contains the necessary code and resources to [Insert functionality or goals of the project]. 
+Quantum-Encryption-tool is a project aimed at providing advanced encryption solutions using quantum computing methods. This repository contains the necessary code and resources to implement encryption by utilizing Kyber, a post-quantum cryptographic algorithm, ensuring enhanced data security against quantum threats.
 
 ## Features
 
@@ -24,7 +25,7 @@ To get started with the Hamsters project, follow the instructions below:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/srihari-976/Hamsters.git
+   git clone https://github.com/srihari-976/Quantum-Encryption-tool.git
    ```
 
 2. Navigate to the project directory:
