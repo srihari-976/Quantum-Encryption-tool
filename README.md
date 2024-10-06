@@ -51,10 +51,6 @@ After successfully running the project, [Insert usage instructions or examples].
 
 If you want to contribute to this project, feel free to submit a pull request. For major changes, please open an issue first to discuss the changes you wish to make.
 
-## License
-
-[Insert license information]
-
 ## Contact
 
 For any questions or suggestions, please reach out to [Your contact information].
